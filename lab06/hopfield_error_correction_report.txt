@@ -1,0 +1,8 @@
+======================================================================
+HOPFIELD NETWORK: ERROR CORRECTION ANALYSIS
+======================================================================
+
+Network Configuration:
+  - Number of neurons (N): 256
+  - Number of stored patterns (P): 3
+  - Storage ratio P/N: 0.0117

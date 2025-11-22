@@ -1,0 +1,22 @@
+======================================================================
+TSP (10 CITIES): HOPFIELD/TANK NETWORK SOLUTION
+======================================================================
+
+Problem Description:
+----------------------------------------------------------------------
+Find the shortest tour visiting all 10 cities exactly once
+and returning to the starting city.
+
+Network Architecture:
+----------------------------------------------------------------------
+  - Number of cities (n): 10
+  - Total neurons (n²): 100
+  - Encoding: V_ip = 1 if city i at position p, else 0
+
+Weight Matrix Size:
+  - Directed weights: N×(N-1) = 100×99 = 9900
+  - Unique undirected pairs: N×(N-1)/2 = 4950
+  - Plus N = 100 threshold values
+
+Energy Function:
+----------------------------------------------------------------------

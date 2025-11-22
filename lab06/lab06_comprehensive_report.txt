@@ -1,0 +1,32 @@
+================================================================================
+ARTIFICIAL INTELLIGENCE LAB 06: HOPFIELD NETWORKS
+Error Correction and Combinatorial Optimization
+================================================================================
+
+Generated: 2025-11-23 00:48:31
+
+================================================================================
+OVERVIEW
+================================================================================
+
+This lab explores Hopfield networks as energy-based models for:
+  1. Associative memory and error correction (Problem 1)
+  2. Constraint satisfaction problems (Problem 2: Eight-Rook)
+  3. Combinatorial optimization (Problem 3: TSP)
+
+Hopfield networks use a Lyapunov energy function that decreases
+monotonically under asynchronous updates, ensuring convergence to
+stable fixed points. By carefully designing the energy landscape,
+we can encode both memory patterns and constraint optimization problems.
+
+================================================================================
+PROBLEM 1: ERROR CORRECTION AND ASSOCIATIVE MEMORY
+================================================================================
+
+Objective:
+--------------------------------------------------------------------------------
+Analyze error-correcting capability of Hopfield networks using
+Hebbian storage for random binary patterns.
+
+Theory:
+--------------------------------------------------------------------------------

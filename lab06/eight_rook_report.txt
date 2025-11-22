@@ -1,0 +1,18 @@
+======================================================================
+EIGHT-ROOK PROBLEM: HOPFIELD NETWORK SOLUTION
+======================================================================
+
+Problem Description:
+----------------------------------------------------------------------
+Place 8 rooks on an 8×8 chessboard such that no two rooks
+share the same row or column.
+
+Network Architecture:
+----------------------------------------------------------------------
+  - Neurons: 64 (8×8 binary units x_ij)
+  - Encoding: x_ij = 1 if rook at position (i,j), else 0
+  - Row penalty (A): 2.5
+  - Column penalty (B): 2.5
+
+Energy Function:
+----------------------------------------------------------------------
